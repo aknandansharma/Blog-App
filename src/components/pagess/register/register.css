@@ -1,7 +1,7 @@
-.login{
+.register {
     width: 600px;
-    margin: 120px 120px 80px 350px;
-    height: calc(100vh - 45vh);
+    margin: 90px 120px 80px 350px;
+    height: calc(87vh - 30vh);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -9,44 +9,47 @@
     border-radius: 20px;
 }
 
-.loginTitle{
-    font-size: 50px;
+.registerTitle {
+    font-size: 30px;
     text-align: center;
     justify-content: center;
 }
-.loginForm{
+
+.registerForm {
     display: flex;
     flex-direction: column;
 }
-.loginForm > label {
+
+.registerForm>label {
     margin: 10px 0;
 }
-.loginInput{
+
+.registerInput {
     margin-left: 130px;
     padding: 10px;
     background-color: white;
     width: 300px;
     border-radius: 5px;
     font-size: 15px;
-    padding: 12px;
+    padding: 10px;
 }
 
-.loginButton{
+.registerButton {
     margin-left: 250px;
     width: 100px;
     padding: 10px;
     cursor: pointer;
-    background-color: blue;
-    font-size: 17px;
+    background-color: rgba(27, 207, 51, 0.904);
+    font-size: 15px;
     color: white;
 }
 
-.loginRegisterButton{
+.registerLoginButton {
     margin-left: 200px;
     width: 200px;
     padding: 10px;
     cursor: pointer;
-    background-color: rgba(27, 207, 51, 0.904);
-    font-size: 17px;
+    background-color: blue;
+    font-size: 15px;
     color: white;
 }
